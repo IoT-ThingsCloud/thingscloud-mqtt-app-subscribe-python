@@ -64,7 +64,7 @@ client.on_connect = on_connect
 client.on_message = on_message
 
 # 连接WSS Broker（端口通常为443）
-client.connect("sh-1-api.iot-api.com", 443, 600)
+client.connect(mqtt_host, 443, 600)
 
 # 启动网络循环
 try:
