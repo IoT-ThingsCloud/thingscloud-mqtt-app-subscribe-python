@@ -23,6 +23,10 @@ ThingsCloud 支持开放的 MQTT 应用端订阅服务，帮助您在自有软�
 pip install paho-mqtt
 ```
 
+### 下载示例代码
+
+Clone 或下载该代码仓库，进入代码目录。
+
 ### 填写配置信息
 
 进入 [ThingsCloud 控制台](https://console.thingscloud.xyz/)，在 **项目 > MQTT 应用端订阅** 中找到以下参数，填写在示例代码中。
